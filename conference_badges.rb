@@ -21,6 +21,10 @@ def assign_rooms(names)
   room_assignment
 end
 
-def printer()
+def printer(attendees)
+  result = assign_rooms(attendees)
 
+  result.each do |phrase|
+    puts phrase
+  end
 end
