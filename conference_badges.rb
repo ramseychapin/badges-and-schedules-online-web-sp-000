@@ -1,14 +1,14 @@
 # Write your code here.
-def badge_maker(names)
+def badge_maker(name)
+  "Hello, my name is #{name}"
+end
+
+def batch_badge_creator(names)
   messages = []
   names.each do |name|
     messages.push("Hello, my name is #{name}.")
   end
   messages
-end
-
-def batch_badge_creator(names)
-
 end
 
 def assign_rooms(names)
