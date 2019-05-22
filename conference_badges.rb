@@ -20,3 +20,7 @@ def assign_rooms(names)
   end
   room_assignment
 end
+
+def printer()
+
+end
